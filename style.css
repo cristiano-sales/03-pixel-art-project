@@ -1,5 +1,8 @@
-/*.color-palette {
-}*/
+/*
+.color-palette {
+
+}
+*/
 
 .color {
     width: 40px;
@@ -8,6 +11,22 @@
     border-width: 1px;
     border-color: black;
     display: inline-block;
+}
+
+/*
+.pixel-board {
+
+}
+*/
+
+.pixel {
+    width: 40px;
+    height: 40px;;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: inline-block;
+    background-color: white;
 }
 
 .red {
