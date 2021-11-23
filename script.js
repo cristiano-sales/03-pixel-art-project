@@ -17,6 +17,31 @@ function colorPicker(event) {
 }
 mainColorPalette.addEventListener('click', colorPicker);
 
+
+
+let pixelUnit = document.querySelectorAll('.pixel');
+let pixelId = document.querySelector('#pixel-board');
+
+
+function pixelRecebeCor(evento) {
+    let selected = document.querySelector('.selected')
+    if(evento.target.className === 'pixel') {
+        console.log('cristiano');
+        evento.target.style.backgroundColor = selected.id;
+    } 
+};
+pixelId.addEventListener('click', pixelRecebeCor);
+
+
+
+// function resetPixels() {
+//     for(let i = 0; i < pixelUnit.length; i += 1) {
+//         pixelUnit[i].style.backgroundColor = 'white';
+//         console.log(pixelUnit[i]);
+//     }
+// }
+
+
 // document.getElementById("pixel-board");
 // document.getElementsByClassName("pixel");
 
