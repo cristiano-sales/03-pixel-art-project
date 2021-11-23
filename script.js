@@ -33,14 +33,18 @@ function pixelRecebeCor(evento) {
 pixelId.addEventListener('click', pixelRecebeCor);
 
 
-
-// function resetPixels() {
-//     for(let i = 0; i < pixelUnit.length; i += 1) {
-//         pixelUnit[i].style.backgroundColor = 'white';
-//         console.log(pixelUnit[i]);
-//     }
-// }
-
+//Referência: Lucas Vilar
+function resetPixels() {
+    let botaoReset = document.querySelector('#clear-board')
+    botaoReset.addEventListener('click', function (){
+        for(let i = 0; i < pixelUnit.length; i += 1) {
+    
+            pixelUnit[i].style.backgroundColor = 'white';
+            console.log(pixelUnit[i]);
+        }
+    })
+}
+resetPixels();
 
 // document.getElementById("pixel-board");
 // document.getElementsByClassName("pixel");
