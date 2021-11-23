@@ -13,13 +13,18 @@
     display: inline-block;
 }
 
-/*
-.pixel-board {
-
+#pixel-board {
+    padding-top: 50px;
+    width: 210px;
+    height: 210px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: inline-block; */
 }
-*/
 
 .pixel {
+    margin-top: -5px;
     width: 40px;
     height: 40px;;
     border-style: solid;
