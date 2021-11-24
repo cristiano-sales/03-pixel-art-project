@@ -4,7 +4,6 @@ for(let i = 0; i < 25; i += 1) {
     document.getElementById('pixel-board').appendChild(newContainer);
 }
 
-// let firstSelected = document.querySelector('.selected');
 // Referência: Douglas Marçal
 let mainColorPalette =  document.querySelector('#color-palette');
 function colorPicker(event) {
@@ -18,7 +17,7 @@ function colorPicker(event) {
 mainColorPalette.addEventListener('click', colorPicker);
 
 
-
+// Referência: Douglas Marçal
 let pixelUnit = document.querySelectorAll('.pixel');
 let pixelId = document.querySelector('#pixel-board');
 
@@ -45,13 +44,3 @@ function resetPixels() {
     })
 }
 resetPixels();
-
-// document.getElementById("pixel-board");
-// document.getElementsByClassName("pixel");
-
-// document.querySelector('#pixel-board');
-// document.querySelector('.pixel'); 
-// document.querySelectorAll('.pixel');
-
-
-
